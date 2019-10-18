@@ -2,13 +2,14 @@
 
 #### Module说明
 
-1. **Hook式**
+##### Hook式
+1. hook_app    （宿主）
+2. hook_plugin （插件） 
 
-hook_app、hook_plugin
-
-2. **占位式**
-
-place_app、place_plugin、place_plugin_interface
+##### 占位式
+1. place_app               （宿主）
+2. place_plugin            （插件） 
+3. place_plugin_interface  （接口库）
 
 #### 运行说明
 1. 以占位式为例，运行Build Apk(s)打包插件项目
@@ -18,8 +19,8 @@ place_app、place_plugin、place_plugin_interface
 
 
 #### 配合源码阅读
-[Android源码  API Level 25](http://androidos.net.cn/androidossearch?query=ActivityThread&sid=&from=code)
-[文章地址](https://www.jianshu.com/p/c62eea0c3f7f)
+* [Android源码  API Level 25](http://androidos.net.cn/androidossearch?query=ActivityThread&sid=&from=code)
+* [文章地址](https://www.jianshu.com/p/c62eea0c3f7f)
 
 >推广
 >[高性能二维码扫描库](https://github.com/devilsen/CZXing)
