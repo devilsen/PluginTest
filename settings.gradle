@@ -1,0 +1,2 @@
+include ':place_app', ':place_plugin', ':hook_app', ':hook_plugin', ':place_plugin_interface'
+rootProject.name='PluginTest'
